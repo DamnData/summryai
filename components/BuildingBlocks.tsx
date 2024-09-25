@@ -39,6 +39,9 @@ export const description = "A collection of health charts."
 export function Charts() {
   return (
     <div className="chart-wrapper mx-auto flex max-w-6xl flex-col flex-wrap items-start justify-center gap-6 p-6 sm:flex-row sm:p-8">
+      {/* <h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-800 white:text-neutral-200 font-SpaceGrotesk text-center">
+        Get to know our services.
+      </h2> */}
       <div className="grid w-full gap-6 sm:grid-cols-2 lg:max-w-[22rem] lg:grid-cols-1 xl:max-w-[25rem]">
         <Card className="lg:max-w-md">
           <CardHeader className="space-y-0 pb-2">

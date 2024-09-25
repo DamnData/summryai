@@ -13,6 +13,11 @@ import { AuroraBackgroundDemo } from "@/components/AuroraBackground";
 import { Charts } from "./BuildingBlocks"
 import {AppleCardsCarouselDemo} from "@/components/CardsCarousel";
 import { GlobeDemo } from "./Globe";
+import DataModernizationServices from "./services/service1";
+import GenerativeAI from "./services/service2";
+import { StickyScrollRevealDemo } from "./Stickroll";
+import StrategySessionPromo from "./SessionPromo";
+import FeaturesSection from "./services/Featuresection";
 
 export default function HomePage() {
   return (
@@ -20,14 +25,29 @@ export default function HomePage() {
     <section className="py-0">
       <AuroraBackgroundDemo /> 
     </section>
-    <section className="py-0">
+    {/* <section className="py-0">
       <AppleCardsCarouselDemo/>
+    </section> */}
+    <section className="py-0">
+      <DataModernizationServices/>
     </section>
     <section className="py-0">
+      <GenerativeAI/>
+    </section>
+    {/* <section className="py-0">
       <Charts/>
+    </section> */}
+    <section className="py-0">
+      <FeaturesSection/>
+    </section>
+    <section className="py-0">
+      <StickyScrollRevealDemo/>
     </section>
     <section className="py-0">
       <GlobeDemo/>
+    </section>
+    <section className="py-0">
+      <StrategySessionPromo/>
     </section>
       {/* Other sections (Career Advancement, etc.) */}
     </div>
